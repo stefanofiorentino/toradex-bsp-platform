@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="https://github.com/Angstrom-distribution" name="githa"/>
+  <remote alias="repo" fetch="https://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="https://github.com/OSSystems" name="githo"/>
+  <remote alias="repo" fetch="https://github.com/meta-qt5" name="githq"/>
+  <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
+  <remote alias="repo" fetch="https://github.com/schnitzeltony" name="githe"/>
+  <remote alias="repo" fetch="https://github.com/watatuki" name="githt"/>
+  <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  
+  <default sync-j="4"/>
+  
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="1.36"/>
+  <project name="meta-angstrom.git" path="layers/meta-angstrom" remote="githa" revision="angstrom-v2017.12-rocko"/>
+  <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="master"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="rocko"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="rocko"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="rocko"/>
+  <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="Morty"/>
+  <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="rocko-next"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="rocko"/>
+  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="rocko"/>
+  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="rocko"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="rocko"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="rocko-next"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="rocko-next">
+    <copyfile dest="export" src="buildconf/export"/>
+  </project>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="rocko-next"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="rocko-next"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="rocko"/>
+</manifest>
