@@ -16,7 +16,7 @@
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="164e929d5dc875dc6523e54dc9ebf58e8a31e720" upstream="master"/>
   <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"/>
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="4a244af3993ae662624c6f615464e6806cc719a2" upstream="thud"/>
-  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="cf826c5392ed4507bbdc28cb474b0ede7c0493f6" upstream="thud"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"/>
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="thud-next"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="b37d8b93924b314df3591b4a61e194ff3feb5517" upstream="thud"/>
