@@ -20,7 +20,7 @@
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="thud-next"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"/>
   <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="b37d8b93924b314df3591b4a61e194ff3feb5517" upstream="thud"/>
-  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="e273ac571a333e9f80d31272f2f80d75746bb4bb" upstream="thud"/>
+  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="641aabf595c78702d16c99d1191a4ac655472ff8" upstream="thud"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="81937713f774d7dea854b22987b3ef1ab1f1cdbe" upstream="thud"/>
   <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="0621067c560f6e3e1a4c4c08ac173393bbafad5c" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="thud-next"/>
