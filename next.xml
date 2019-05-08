@@ -19,7 +19,6 @@
   <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="thud"/>
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="thud-next"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="thud"/>
-  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="thud"/>
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="thud"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="thud"/>
   <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="master"/>
