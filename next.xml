@@ -5,7 +5,6 @@
   <remote alias="repo" fetch="https://github.com/OSSystems" name="githo"/>
   <remote alias="repo" fetch="https://github.com/meta-qt5" name="githq"/>
   <remote alias="repo" fetch="https://github.com/meta-rust" name="githr"/>
-  <remote alias="repo" fetch="https://github.com/watatuki" name="githt"/>
   <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
   <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
