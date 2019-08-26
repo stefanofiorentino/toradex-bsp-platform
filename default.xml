@@ -21,13 +21,13 @@
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="641aabf595c78702d16c99d1191a4ac655472ff8" upstream="thud"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
   <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="c5ff05d1e99c1e80844c1673456e2368499918c7" upstream="master"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="33cc8028a921dbf4f49315db745c966c3534a749" upstream="thud"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="6d5587f283396fce9e0172df503fc8df68fff095" upstream="thud"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="3b9a40e5b1d4ef24157752de55e928407921828f" upstream="thud">
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="b296a57d75ae7e5c31804e7e9545db0de99c815b" upstream="thud"/>
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="082483f155b2e853189cdd8f82d07a98b74f28fe" upstream="thud"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="d7da0a883f855c518475811f21fce089b95570f7" upstream="thud">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="5290186d19f81540cfcb92ab4424951909885223" upstream="thud"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="bbfbc53ef4d1ae1059940c0d397b8d8f7c1f0013" upstream="thud"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="d1ff6c6cc8a268ec141481b3744859ba633c16ff" upstream="thud"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="aabe754d2c72a90349fd69d50ba3f38033d82af2" upstream="thud"/>
   <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="9a1d9fd77e2dd2d324654755633e143ef7730dc5" upstream="thud"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="d3d3f443039b03f1200a14bfe99f985592632018" upstream="thud"/>
 </manifest>
