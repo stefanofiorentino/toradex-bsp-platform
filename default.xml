@@ -21,7 +21,7 @@
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="641aabf595c78702d16c99d1191a4ac655472ff8" upstream="thud"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
   <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="c5ff05d1e99c1e80844c1673456e2368499918c7" upstream="master"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="b296a57d75ae7e5c31804e7e9545db0de99c815b" upstream="thud"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="d7265604f72ddcc5ca1c443847c1244952700f2d" upstream="thud"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="082483f155b2e853189cdd8f82d07a98b74f28fe" upstream="thud"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="d7da0a883f855c518475811f21fce089b95570f7" upstream="thud">
     <copyfile dest="export" src="buildconf/export"/>
