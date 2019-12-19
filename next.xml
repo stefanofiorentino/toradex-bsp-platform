@@ -20,7 +20,7 @@
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="thud"/>
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="thud"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="thud"/>
-  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="master"/>
+  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="dbf68d40b3898913142f84586bbc97b830797967" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="thud-next">
