@@ -11,16 +11,16 @@
   
   <default sync-j="4"/>
   
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="4ce92f43eeac6a4bfd06e8567fa6891614b5b3b0" upstream="1.40"/>
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="b690030efc87850951e8e3ecf4ae3c1dd1dc9b63" upstream="1.40"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="2c3c891f776e86faad1f759676cb2bfff32df4a8" upstream="master"/>
   <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="545e8094a140231e78b9284c3a3d94fcc573ae98" upstream="thud"/>
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="4a244af3993ae662624c6f615464e6806cc719a2" upstream="thud"/>
-  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="b73854c078b0a174613135b60da3377a1055f477" upstream="thud"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="c7ab72d894cf5ca887832e163bc27719e045e047" upstream="thud"/>
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="thud-next"/>
-  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="9b3b907f30b0d5b92d58c7e68289184fda733d3e" upstream="thud"/>
-  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="641aabf595c78702d16c99d1191a4ac655472ff8" upstream="thud"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="thud"/>
+  <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="48ab2dad10399951783f0e54aafb7a27ae46ac4e" upstream="thud"/>
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
-  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="c5ff05d1e99c1e80844c1673456e2368499918c7" upstream="master"/>
+  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="0f950f5e333a1c8999320bf18232144f3dd9c80e" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="thud-next">
@@ -28,6 +28,6 @@
   </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="thud-next"/>
-  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="9a1d9fd77e2dd2d324654755633e143ef7730dc5" upstream="thud"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="d3d3f443039b03f1200a14bfe99f985592632018" upstream="thud"/>
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="347093d4d24eac8165e2be66a4a7503af4bfc833" upstream="thud"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="e68991ceb5933f7d03b96697e8a0ba0829feb320" upstream="thud"/>
 </manifest>
