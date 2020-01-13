@@ -13,12 +13,14 @@ Install the repo bootstrap binary:
   chmod a+x ~/bin/repo
 
 Create a directory for your oe-core setup to live in and clone the meta
-information. Check the http://git.toradex.com/toradex-bsp-platform.git
-for available branches.
+information.
+Check the http://git.toradex.com/toradex-bsp-platform.git for available branches.
+default.xml, integration.xml and next.xml are available manifests, expect issues
+if not using default.xml though.
 
   mkdir oe-core
   cd oe-core
-  repo init -u http://git.toradex.com/toradex-bsp-platform.git -b <branch>
+  repo init -u http://git.toradex.com/toradex-bsp-platform.git -b <branch> -m <manifest>
   repo sync
 
 Optionally create a development branch in all git repositories
@@ -43,7 +45,7 @@ e.g. set in local.conf
 and then if you want to build for Apalis iMX6 instead, use the following
 command line:
 
-  MACHINE=apalis-imx6 bitbake angstrom-lxde-image
+  MACHINE=apalis-imx6 bitbake <image-recipe>
 
 More information on our developer website:
 
