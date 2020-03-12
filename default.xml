@@ -19,15 +19,15 @@
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="ef686d11201b780d7db650f94b3a850a0eb3a6f5" upstream="thud"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="thud"/>
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="48ab2dad10399951783f0e54aafb7a27ae46ac4e" upstream="thud"/>
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
-  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="0f950f5e333a1c8999320bf18232144f3dd9c80e" upstream="master"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="e0c84d834236381e8fec1dcc28137e489fa5ad0a" upstream="thud"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="e6e464c9ed9266ce46452f953c1bdcb0e7b2d95f" upstream="thud"/>
+  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="dbf68d40b3898913142f84586bbc97b830797967" upstream="master"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="47ef64803548f73a0eda753c5d3d3f7f315af606" upstream="thud"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="54720c9c8c4c5da8e8533dbe82fd69886ba32d60" upstream="thud"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="b430b9bdf4fab46173422106eed1d322f4ace79b" upstream="thud">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="be3bebbc165727418f261d29bd75dd413527fd97" upstream="thud">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="7d996d197ad3185838103da3229e01f1b00285c4" upstream="thud"/>
-  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="8d3d527425b592480900d006c76694877755486a" upstream="thud"/>
-  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="347093d4d24eac8165e2be66a4a7503af4bfc833" upstream="thud"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="af3c4735e6f2bfd3c1166a434832286a281a7d65" upstream="thud"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="db41fd66b3b56ef1f33ac2ef9eacb33d41cd1738" upstream="thud"/>
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="bf00cab7a55e2038e09a307378af5aec04c99380" upstream="thud"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="e68991ceb5933f7d03b96697e8a0ba0829feb320" upstream="thud"/>
 </manifest>

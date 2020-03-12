@@ -19,8 +19,8 @@
   <project name="meta-lxde.git" path="layers/meta-lxde" remote="tdx" revision="thud-next"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="thud"/>
   <project name="meta-qt5-extra.git" path="layers/meta-qt5-extra" remote="githe" revision="48ab2dad10399951783f0e54aafb7a27ae46ac4e" upstream="thud"/>
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
-  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="0f950f5e333a1c8999320bf18232144f3dd9c80e" upstream="master"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="e6e464c9ed9266ce46452f953c1bdcb0e7b2d95f" upstream="thud"/>
+  <project name="meta-rust.git" path="layers/meta-rust" remote="githr" revision="dbf68d40b3898913142f84586bbc97b830797967" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="thud-next">
@@ -28,6 +28,6 @@
   </project>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="thud-next"/>
-  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="347093d4d24eac8165e2be66a4a7503af4bfc833" upstream="thud"/>
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="bf00cab7a55e2038e09a307378af5aec04c99380" upstream="thud"/>
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="e68991ceb5933f7d03b96697e8a0ba0829feb320" upstream="thud"/>
 </manifest>
